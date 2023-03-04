@@ -7,6 +7,7 @@
   font-size: 40px;
 }
 .q{
+    width: 100%;
     object-fit: cover;
     height: 75vh;
     display: block;
