@@ -85,3 +85,18 @@
       width: 578px;
     }
   }
+  @media (max-width: 300px ){
+    .a{
+      height: 200px;
+      margin: 0;
+    }
+    .q{
+      width: 300px;
+    }
+    .p{
+      margin: 0;
+    }
+    .header {
+      width: 300px;
+    }
+  }
