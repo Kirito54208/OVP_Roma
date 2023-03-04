@@ -99,7 +99,7 @@
       width: 578px;
     }
   }
-  @media (max-width: 300px ){
+  @media (max-width: 400px ){
     .a{
       height: 800px;
       margin: 0;
