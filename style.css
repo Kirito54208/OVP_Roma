@@ -7,7 +7,6 @@
   font-size: 40px;
 }
 .q{
-    width: 100%;
     object-fit: cover;
     height: 75vh;
     display: block;
@@ -29,10 +28,9 @@
     margin-top: 16px;
   }
 .snaiper{
-    font-weight: 600;
+   font-weight: 600;
     font-size: 70px;
     color: #000000;  
-    list-style-type: none;
     display: flex;
     justify-content: space-evenly;    
 }
@@ -47,8 +45,6 @@
 /* HEADER */
 .header {
   background-color: #033914;
-  display: block;
-  max-width: 100%;
 }
 .course-row {
     display: flex;
@@ -60,9 +56,17 @@
     .container{
       padding: 0 20px;
     }
+    .q{
+      width: 1120px;
+    }
   }
   @media (max-width: 992px ){
-    
+    .header {
+      width: 992px;
+    }
+    .q{
+      width: 992px;
+    }
   }
    
   @media (max-width: 578px ){
@@ -70,7 +74,13 @@
       height: 200px;
       margin: 0;
     }
+    .q{
+      width: 578px;
+    }
     .p{
       margin: 0;
+    }
+    .header {
+      width: 578px;
     }
   }
