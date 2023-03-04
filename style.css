@@ -47,7 +47,8 @@
 /* HEADER */
 .header {
   background-color: #033914;
-  width: 100%;
+  width: auto;
+  display: block;
 }
 .course-row {
     display: flex;
