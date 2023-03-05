@@ -138,10 +138,13 @@
     .q{
       width: 1120px;
     }
+    .header {
+      width: 100%;
+    }
   }
   @media (max-width: 992px ){
     .header {
-      width: 992px;
+      width: 100%;
     }
     .q{
       width: 992px;
@@ -160,7 +163,7 @@
       margin: 0;
     }
     .header {
-      width: 578px;
+      width: 100%;
     }
   }
   @media (max-width: 400px ){
