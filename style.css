@@ -166,6 +166,9 @@
   }
    
   @media (max-width: 578px ){
+    .course-name{
+      font-size: 24px;
+    }
     .a{
       height: 200px;
       margin: 0;
@@ -194,6 +197,9 @@
 
   }
   @media (max-width: 400px ){
+    .course-name{
+      font-size: 24px;
+    }
     .a{
       height: 800px;
       margin: 0;
