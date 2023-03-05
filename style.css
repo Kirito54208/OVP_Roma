@@ -163,6 +163,10 @@
     .w{
       width: 720px;  
     }
+    .img{
+      width: 720px; 
+      justify-content: center;
+    }
   }
    
   @media (max-width: 578px ){
@@ -195,15 +199,17 @@
       .w{
         width: 578px;  
       }  
-
+      .img{
+        width: 578px; 
+        justify-content: center;
+      }
   }
   @media (max-width: 400px ){
+    .a{
+      display: none;
+    }
     .course-name{
       font-size: 24px;
-    }
-    .a{
-      height: 800px;
-      margin: 0;
     }
     .q{
       width: 400px;
@@ -217,14 +223,18 @@
       width: 400px;
     }
     .kvadrat_0 {
-      width: 100%;  
+      width: 400px;  
       height: 100%;  
       }
     .kvadrat_1 {
-      width: 100%;  
+      width: 400px;  
       height: 100%;  
       }  
       .w{
         width: 400px;  
+      }
+      .img{
+        width: 400px; 
+        justify-content: center;
       }
   }
