@@ -203,6 +203,9 @@
         width: 578px; 
         justify-content: center;
       }
+      .a{
+        display: none;
+      }
   }
   @media (max-width: 400px ){
     .a{
@@ -233,7 +236,11 @@
       .w{
         width: 400px;  
       }
-      .img{
+      .img {
+        width: 400px; 
+        justify-content: center;
+      }
+      .img_1{
         width: 400px; 
         justify-content: center;
       }
