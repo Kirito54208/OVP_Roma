@@ -152,10 +152,10 @@
   }
   @media (max-width: 720px ){
     .header {
-      width: 100%;
+      width: 720px;
     }
     .q{
-      width: 992px;
+      width: 720px;
     }
     .p{
       width: 100%;
@@ -182,7 +182,7 @@
       justify-content: center;
     }
     .header {
-      width: 100%;
+      width: 578px;
     }
     .kvadrat_0 {
       width: 100%;  
@@ -206,7 +206,7 @@
       margin: 0;
     }
     .q{
-      width: 780px;
+      width: 400px;
     }
     .p{
       margin: 0;
@@ -214,7 +214,7 @@
       justify-content: center;
     }
     .header {
-      width: 100%;
+      width: 400px;
     }
     .kvadrat_0 {
       width: 100%;  
