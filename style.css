@@ -151,9 +151,9 @@
     }
   }
   @media (max-width: 720px ){
-    .header {
+    /*.header {
       width: 720px;
-    }
+    }*/
     .q{
       width: 720px;
     }
@@ -185,9 +185,9 @@
       width: 100%;
       justify-content: center;
     }
-    .header {
+    /*.header {
       width: 578px;
-    }
+    }*/
     .kvadrat_0 {
       width: 100%;  
       height: 100%;  
@@ -222,9 +222,9 @@
       width: 100%;
       justify-content: center;
     }
-    .header {
+    /*.header {
       width: 400px;
-    }
+    }*/
     .kvadrat_0 {
       width: 400px;  
       height: 100%;  
