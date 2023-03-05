@@ -3,6 +3,15 @@
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.zag{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: flex-start;
+}
+.btn{
+  margin: 0 15px;
+}
 .w{
   justify-content: flex-end;
 }
@@ -10,12 +19,19 @@
   font-size: 40px;
 }
 .kvadrat_0 {
-  width: 100%;  
+  width: 68%;  
   height: 100%;  
   background: rgb(255, 111, 111);   
   text-align: center;
   border-radius: 10px;
   }
+.kvadrat_1 {
+  width: 50%;  
+  height: 100%;  
+  background: rgb(255, 111, 111);   
+  text-align: center;
+  border-radius: 10px;
+  }  
 .q{
     width: 100%;
     object-fit: cover;
@@ -46,7 +62,8 @@
     font-size: 70px;
     color: #000000;  
     display: flex;
-    justify-content: space-evenly;    
+    justify-content: flex-start;   
+    margin: 0 50px;
 }
 
 
@@ -58,13 +75,60 @@
 
 /* HEADER */
 .header {
-  background-color: #033914;
+  background-color: #3d3d3d;
   width: 100%;
 }
 .course-row {
     display: flex;
     border-radius: 50px;
   }
+  .course-info-title{
+    font-weight: 600;
+    font-size: 70px;
+    color: #1A1A1A;
+    padding-bottom: 40px;
+  }
+  .footer-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #939495;
+    padding: 30px 0;
+  }
+  .left-block{
+    display: flex;
+    align-items: center;
+  }
+  .course-number{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    color: #a2a2a4;
+  }
+  .course-block{
+    margin-left: 60px;
+    line-height: 1.5;
+  }
+  .course-name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    letter-spacing: 0.8px;
+    color: #000000;
+  }
+  .course-count{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    color: #9a9a9b;  
+  }
+
+
+
+
+
+
   
   /*Адаптация сайта.*/
   @media (max-width: 1120px ){
