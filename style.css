@@ -189,7 +189,7 @@
       width: 578px;
     }*/
     .kvadrat_0 {
-      width: 100%;  
+      width: 578px;  
       height: 100%;  
       }
     .kvadrat_1 {
@@ -205,6 +205,9 @@
       }
       .a{
         display: none;
+      }
+      .t{
+        margin:  5px;
       }
   }
   @media (max-width: 400px ){
@@ -243,5 +246,8 @@
       .img_1{
         width: 400px; 
         justify-content: center;
+      }
+      .t{
+        margin:  5px;
       }
   }
