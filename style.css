@@ -3,6 +3,9 @@
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+.navbar-toggler{
+  font-size: 40px;
+}
 .btn{
   margin: 0 15px;
 }
@@ -36,7 +39,7 @@
   margin: 0 20px;
 }
 .t{
-  margin:  20px;
+  margin:  5px;
   margin-left: 50px;
   font-size: 20px;
   color: black;
@@ -47,6 +50,10 @@
 }
 .img_1{
   float: left;
+}
+.img_2{
+  width: 640px;
+  float: right;
 }
 .img-holder {
     position: relative;
@@ -158,9 +165,15 @@
     .w{
       width: 720px;  
     }
-    .img{
+    /*.img{
       justify-content: center;
     }
+    .x{
+      margin: 5px;
+    }
+    .img_2{
+      float: left;
+    }*/
   }
    
   @media (max-width: 578px ){
@@ -193,11 +206,15 @@
         width: 578px; 
         justify-content: center;
       }
-      .t{
-        margin:  5px;
+      .x{
+        margin: 5px;
       }
   }
   @media (max-width: 400px ){
+    .img_2{
+      width: 400px;
+      float: right;
+    }
     .course-name{
       font-size: 24px;
     }
@@ -231,7 +248,24 @@
         width: 400px; 
         justify-content: center;
       }
-      .t{
-        margin:  5px;
+      .x{
+        margin: 5px;
       }
+
   }
+  @media (max-width: 370px ){
+    .header {
+      width: 100%;
+    }
+    .q{
+      width: 100%;
+    }
+    .kvadrat_0 {
+      width: 370px;  
+      height: 100%;  
+      }
+    .kvadrat_1 {
+      width: 100%;  
+      height: 100%;  
+      }
+    }
